@@ -1,0 +1,94 @@
+{
+  "name": "AFK Bot",
+  "bot-account": {
+    "username": "darshana_sir",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "imiraZdog-G5Xn.aternos.me",
+    "port": 38876,
+    "version": "1.20.1",
+    "try-creative": false
+  },
+  "position": {
+    "enabled": true,
+    "x": 0,
+    "y": 100,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": ""
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 120,
+      "messages": [
+        "Who's Dutugamunu's Dad...?",
+        "I'm In Love With A vilager!",
+        "I want A Blaze Rod So I can Ride On It....!"
+      ]
+    },
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 120000
+  },
+  "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": true,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": true,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": true,
+    "combat": true,
+    "beds": false,
+    "chat": true,
+    "console-commands": true
+  },
+  "combat": {
+    "attack-mobs": true,
+    "auto-eat": true
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
+  },
+  "discord": {
+    "enabled": false,
+    "webhookUrl": "",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": false
+    }
+  },
+  "chat": {
+    "respond": true,
+    "tp-trigger": "tp",
+    "player-ids": {
+      "1": "imiraZdog",
+      "2": "Itz_nipun",
+      "3": "pahanZdog",
+      "4": "JASKO_X"
+    }
+  }
+}
